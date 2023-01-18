@@ -1,0 +1,19 @@
+.container_title {
+    @apply container mx-auto px-6 pt-4;
+}
+
+.container_textarea {
+    @apply col-span-6 sm:col-span-3;
+}
+
+.textarea {
+    @apply mt-1 block w-full rounded-sm bg-gray-100 border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm resize-none;
+}
+
+.fixed_section {
+    @apply fixed bottom-0 left-0 z-20 w-full bg-white;
+}
+
+.fixed_button {
+    @apply mt-2 w-full p-4 gap-2 text-2xl font-semibold text-white bg-green-600 border-t border-gray-200 shadow md:flex items-center justify-center focus:bg-green-700;
+}

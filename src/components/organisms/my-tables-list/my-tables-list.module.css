@@ -1,0 +1,4 @@
+.container_table {
+  @apply mt-4 grid grid-cols-3 gap-3;
+}
+

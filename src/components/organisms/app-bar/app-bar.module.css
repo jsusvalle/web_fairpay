@@ -1,0 +1,8 @@
+
+.fixed_section {
+  @apply sticky bottom-0 z-20 left-0 w-full flex justify-around gap-4 bg-white py-2;
+}
+
+.button_icon {
+  @apply rounded-3xl px-8 py-2 hover:bg-green-200 ease-in-out duration-300;
+}

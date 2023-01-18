@@ -1,0 +1,8 @@
+.container_title {
+    @apply container mx-auto px-6 pt-4;
+}
+
+
+.button_with_icon {
+    @apply mb-4 w-full p-4 gap-4 text-2xl font-semibold rounded-md text-white bg-yellow-500 border-t border-gray-200 shadow flex items-center justify-center focus:bg-yellow-600;
+}
