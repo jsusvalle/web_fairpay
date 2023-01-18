@@ -1,0 +1,23 @@
+.accordion_container {
+    @apply bg-white;
+}
+
+.button_accordion {
+    @apply flex items-center justify-between w-full py-5 px-4 font-medium text-left text-gray-500 border-b border-gray-200 text-xl;
+}
+
+.icon_arrow {
+    @apply w-6 h-6 rotate-180 shrink-0;
+}
+
+.accordion_table {
+    @apply py-5 border-b;
+}
+
+.accordion_content {
+    @apply flex justify-between text-base font-semibold px-4;
+}
+
+.accordion_hidden {
+    @apply hidden;
+}

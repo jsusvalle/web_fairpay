@@ -1,0 +1,45 @@
+.container_accordion {
+    @apply bg-white mt-4 pt-1 px-4 text-4xl font-bold rounded-md;
+}
+
+.accordion_container {
+    @apply bg-white;
+}
+
+.button_accordion {
+    @apply flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 text-xl;
+}
+
+.button_accordion_name {
+    @apply flex items-center justify-between gap-5;
+}
+
+.icon_arrow {
+    @apply w-6 h-6 rotate-180 shrink-0;
+}
+
+.accordion_table {
+    @apply py-5 border-b;
+}
+
+.accordion_content_items_food {
+    @apply flex justify-between text-base font-semibold pb-1 border-gray-50 border-b last:border-b-0;
+}
+
+.accordion_content_total_check {
+    @apply flex justify-between text-xl font-semibold pb-1 border-gray-50 border-b last:border-b-0;
+}
+
+
+.accordion_hidden {
+    @apply hidden;
+}
+
+.section_check_total {
+    @apply flex items-center justify-between w-full py-5 font-medium text-left text-black border-b border-gray-200 text-xl last:border-b-0;
+}
+
+.section_check_tip {
+    @apply flex items-center justify-between w-full py-5 font-medium text-left text-green-800 border-b border-gray-200 text-xl last:border-b-0;
+}
+

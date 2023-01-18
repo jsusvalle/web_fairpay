@@ -1,0 +1,22 @@
+.skeleton_container {
+  @apply animate-pulse items-center justify-center gap-4 w-full;
+}
+
+.skeleton_row {
+  @apply w-full bg-gray-300 rounded-md;
+}
+
+.short {
+  @apply h-7;
+}
+
+.medium {
+  @apply h-16;
+}
+
+.tall {
+ @apply h-24;
+}
+
+
+

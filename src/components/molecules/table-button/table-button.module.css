@@ -1,0 +1,19 @@
+.item_table {
+  @apply flex flex-col items-center px-4 py-2 rounded-md bg-white hover:bg-gray-50 transition ease-in-out duration-300 cursor-default;
+}
+
+.item_table_pending {
+ @apply bg-yellow-100 hover:bg-yellow-200 transition ease-in-out duration-300 border-2 border-dashed border-yellow-300 cursor-pointer;
+}
+
+.item_table_served {
+ @apply bg-green-100 hover:bg-green-200 transition ease-in-out duration-300 border-2 border-dashed border-green-300 cursor-pointer;
+}
+
+.item_table_number {
+  @apply text-5xl font-semibold;
+}
+
+.item_table_nro_guest {
+  @apply flex justify-around gap-4 mt-2 text-sm font-bold;
+}

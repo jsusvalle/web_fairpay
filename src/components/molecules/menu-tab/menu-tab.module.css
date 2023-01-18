@@ -1,0 +1,15 @@
+.tab_container {
+    @apply container mx-auto mt-6 border-b bg-white border-gray-200 dark:border-gray-700;
+}
+
+.ul_tab_container {
+    @apply flex flex-wrap -mb-px text-sm font-medium text-center;
+}
+
+.button_tab_selected {
+    @apply inline-block p-4 border-b-2 rounded-t-lg font-bold;
+}
+
+.button_tab_unselected {
+    @apply inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300;
+}

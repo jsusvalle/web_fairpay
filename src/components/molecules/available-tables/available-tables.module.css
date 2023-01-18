@@ -1,0 +1,19 @@
+.container_available_tables {
+    @apply flex flex-col mt-4 text-xl font-semibold;
+}
+
+.container_spacing {
+    @apply mt-4;
+}
+
+.container_button_table {
+    @apply grid grid-cols-4 sm:grid-cols-5 gap-4 mt-4;
+}
+
+.button_table {
+    @apply bg-white rounded-sm border border-gray-500 border-dashed px-4 py-3 focus:border-green-500 focus:bg-green-50;
+}
+
+.button_selected {
+    @apply border-green-500 bg-green-50 rounded-sm border border-dashed px-4 py-3 ;
+}

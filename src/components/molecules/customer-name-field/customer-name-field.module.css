@@ -1,0 +1,7 @@
+.container_texfield {
+    @apply mt-2 flex justify-between;
+}
+
+.textfield {
+    @apply text-4xl w-60 font-bold border-0 bg-slate-100 focus:border-b-2 focus:border-x-0 focus:border-t-0 focus:ring-0;
+}
