@@ -1,0 +1,11 @@
+.container_tab {
+    @apply container mx-auto h-full;
+}
+
+.tab_content {
+    @apply container px-6 bg-white flex flex-col h-full;
+}
+
+.tab_item {
+    @apply flex justify-between font-semibold text-xl border border-b border-x-0 border-t-0 py-4 last:border-b-0;
+}

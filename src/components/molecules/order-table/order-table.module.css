@@ -1,0 +1,43 @@
+.container_table {
+    @apply mx-6 mt-4 bg-white rounded-sm;
+}
+
+.table_styles {
+    @apply items-start bg-transparent w-full border-collapse;
+}
+
+.th_styles {
+    @apply px-6 align-middle border border-b-slate-200 py-3 text-lg border-t-0 border-l-0 border-r-0 font-bold text-left;
+}
+
+.th_right_styles {
+    @apply text-right;
+}
+
+.tr_styles {
+    @apply border border-b-slate-200 border-x-0 border-t-0;
+}
+
+.tbody_th_styles {
+    @apply border-t-0 px-6 align-middle border-l-0 border-r-0 p-4 text-left text-gray-700 font-semibold;
+}
+
+.tbody_td_styles {
+    @apply border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs p-4 text-right;
+}
+
+.title_customer {
+    @apply font-bold text-green-800 text-lg;   
+}
+
+.container_buttons {
+    @apply flex justify-end gap-5;   
+}
+
+.plus_button {
+    @apply flex items-center justify-center rounded-full w-10 h-10 bg-green-500 text-white;   
+}
+
+.delete_button {
+    @apply flex items-center justify-center rounded-full w-10 h-10 bg-red-500 text-white;   
+}
