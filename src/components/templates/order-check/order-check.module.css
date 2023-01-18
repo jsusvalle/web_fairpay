@@ -1,0 +1,12 @@
+.container_title {
+    @apply container mx-auto px-6 pt-4;
+}
+
+.content {
+    @apply flex justify-between items-center;
+}
+
+.title {
+    @apply mt-4 text-4xl font-bold;
+}
+
