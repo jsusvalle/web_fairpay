@@ -1,0 +1,3 @@
+.container_styles {
+  @apply container mx-auto px-6 h-full;
+}
